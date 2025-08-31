@@ -12,13 +12,13 @@ document.getElementById("heart-btn-nav")
 document.getElementById("call-btn-National")
 .addEventListener("click", function(e){
      e.preventDefault()
-     alert("জাতীয় জরুরি সেবা")  
+     alert("📞 Calling National Emergency 999...")  
    let coinElement = document.getElementById("coin");
    let coinAmount = parseInt(coinElement.innerText);
    if(coinAmount >= 20){
     coinAmount -= 20;
     coinElement.innerText = coinAmount
    }else{
-    alert("আর কমানো যাবে না! কয়েন শেষ।");
+    alert("আপনার পর্যাপ্ত পরিমাণ কয়েন নেই, কল করতে হলে কমপক্ষে ২০টা কয়েন লাগবে।");
    }
 })
