@@ -8,6 +8,14 @@ document.getElementById("heart-btn-nav")
      document.getElementById("number").innerText = count;
 })
 
+//------- copy button start-------
+let copyCount = 0;
+document.getElementById("copy-btn-nav")
+.addEventListener("click", function(){
+     alert("Text copied");
+     copyCount++;
+     document.getElementById("copy-btn").innerText = copyCount;
+});
 //---1  call button start------
 document.getElementById("call-btn-National")
 .addEventListener("click", function(e){

@@ -12,7 +12,7 @@
 </head>
 <body class="m-0 p-0">
    <!-- header esction -->
-     <nav class="h-[100px] mx-auto">
+     <nav class="h-[100px] md:mx-auto">
 
              <div class="navbar bg-base-100 shadow-sm flex justify-between items-center  p-5">
                <div class="ml-15 flex">
@@ -30,27 +30,28 @@
                    </div>
               
                    <div class="text-white bg-[#00A63E] rounded-xl pl-5 pr-5 pt-2 pb-2 flex gap-3">
-                    <h1>0</h1>
-                     <button class="btn">Copy</button>
+                    <h1 id="copy-btn">0</h1>
+                     <button id="copy-btn-nav" class="btn">Copy</button>
                    </div>
                   
                </div>
             </div>
      </nav>
      <!-- banner section -->
-      <div class="mx-auto h-[240px] bg-gradient-to-r from-[#013223] to-[#006747] text-center">         
+      <div class="md:mx-auto h-[240px] bg-gradient-to-r from-[#013223] to-[#006747] text-center">         
             <div class="pt-8 mx-auto h-[92px] w-[92px]">
                 <img src="./assets/logo.png" alt="">
             </div>
             <div class="pt-8">
             <h1 class=" pt-3 text-2xl text-white font-bold">জরুরি সেবা ডিরেক্টরি</h1>
-            <p class="pt-3 text-xl text-white font-semibold">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+            <p class="pt-3 text-lg text-white font-semibold">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
             </div>
       </div>
       <!-- service section -->
-    <div class="flex mx-auto w-[1250px] h-[1140px]">
+    <div class="flex md:mx-auto w-[1250px] h-[1140px]">
         <!-- card section left -->
-        <div class="border-red-500 w-[933px] grid grid-cols-3 gap-7">
+         
+             <div class=" w-[933px] grid md:grid-cols-3 gap-7 md:m-4">
 
                <div class=" w-[300px] h-[300px] shadow-lg rounded-xl">
                       <div class="flex justify-between items-center m-4">
@@ -206,12 +207,12 @@
                       </div>
                </div>
 
-       </div>
-
-   
+            </div>
+          
+    
          <!-- card section right -->
          <div class=" w-[300px]">
-            <div class="flex justify-between pt-3 align-center p-2">
+            <div class="flex justify-between pt-8 align-center p-2">
               <h1 class="text-2xl font-semibold text-[#404040]">Call History</h1>
               <button id="clear-btn" class="btn bg-[#00A63E] p-1 pl-5 pr-5 rounded-3xl text-white text-xl">Clear</button>
             </div>
